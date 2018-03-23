@@ -10,11 +10,11 @@ import Foundation
 
 public class TheBestAPIEver {
 
-    func justGoodFunction() -> String {
+    public func justGoodFunction() -> String {
         return "API v0.1"
     }
 
-    func justGoodFunction(success: @escaping (String) -> Void) {
+    public func justGoodFunction(success: @escaping (String) -> Void) {
         success(justGoodFunction())
     }
 }
